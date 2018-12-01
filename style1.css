@@ -1,0 +1,109 @@
+body{
+
+    background: black;
+  }
+.main{
+  background-image: url(penguins.jpg);
+  margin:  2%;
+  border-radius: 2%;
+  display: flex;
+
+}
+.left{
+  background: pink;
+  margin: 3%;
+  border-radius: 5%;
+  box-shadow: 3px 3px 3px 3px;
+  text-align: center;
+  position: fixed;
+  height: 60%;
+  width:25%;
+
+}
+.right{
+  background: white;
+  margin:3%;
+  border-radius:5%;
+  box-shadow: 3px 3px 3px 3px;
+  padding: 2%;
+  margin-left: 35%;
+  width:55%;
+
+}
+img{
+  margin:3%;
+  height:20%;
+  width:30%;
+}
+@media only screen and (min-width:320px) and (max-width:480px) {
+  body{
+    background: aqua;
+
+  }
+  .main{
+    background: grey;
+    margin:  2%;
+    border-radius: 2%;
+  display: inline-block;
+  justify-content: space-around;
+}
+  .left{
+    background: pink;
+    margin: 3%;
+    border-radius: 5%;
+    box-shadow: 3px 3px 3px 3px;
+
+    text-align: center;
+    height:40%;
+    width: 60%;
+  }
+  .right{
+    background:green;
+    margin:3%;
+    border-radius:5%;
+    box-shadow: 3px 3px 3px 3px;
+    padding: 2%;
+    width:100%;
+    margin-top: 85%;
+    height:20%;
+
+  }
+  img{
+    margin:3%;
+    height:3%;
+    width:40%;
+}
+}
+@media screen and (min-width:481px) and (max-width:780px) {
+  body{
+      background:blue;
+    }
+  .main{
+    background: pink;
+    margin:  2%;
+    border-radius: 2%;
+    display: flex;
+
+  }
+  .left{
+    background: orange;
+    margin: 3%;
+    border-radius: 5%;
+    box-shadow: 3px 3px 3px 3px;
+    text-align: center;
+  }
+  .right{
+    background: orange;
+    margin:3%;
+    border-radius:5%;
+    box-shadow: 3px 3px 3px 3px;
+    padding: 2%;
+    margin-left: 35%;
+    width: 55%;
+  }
+  img{
+    margin:3%;
+    height:20%;
+    width:30%;
+  }
+}

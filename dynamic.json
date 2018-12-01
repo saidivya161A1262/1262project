@@ -1,0 +1,40 @@
+{
+  "career":{
+    "info":"To work in a environment where i can utiize my skills"
+  },
+  "education":[
+    {
+      "degree":"B.tech(it)",
+      "institute":"vignan",
+      "yop":"2020",
+      "percentage":"83"
+    },
+    {
+      "degree":"Intermediate",
+      "institute":"narayana",
+      "yop":"2016",
+      "percentage":"93"
+    },
+    {
+      "degree":"ssc",
+      "institute":"indiansprings",
+      "yop":"2014",
+      "percentage":"9.7"
+    }
+  ],
+  "skills":[
+      {
+        "title" : "platforms",
+        "content":"windows,linux"
+      },
+      {
+        "title" : "Programming Language",
+        "content":"c,java,python,html,css,js"
+      },
+      {
+        "title" : "Datebase",
+        "content":"mysql,pl/sql"
+      }
+      ],
+      "languages" :"Telugu,English,Hindi"
+}

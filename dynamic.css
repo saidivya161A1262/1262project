@@ -1,0 +1,142 @@
+body{
+  background:  #9440AF;
+}
+.maindiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: grey;
+  height:100%;
+}
+a{
+  font-size: 20%;
+}
+img{
+  border-radius: 50%;
+  border: 2px solid black;
+  display: block;
+  margin: auto;
+  width:30%;
+  height:50%;
+}
+.leftchild{
+  margin:3%;
+  border-radius: 5%;
+  width:50%'
+  box-shadow: 3px 3px 3px 3px;
+  background-color: #A93131 ;
+  text-align: center;
+  height:50%;
+}
+
+.child2{
+    margin:1%;
+    background-color:#A93131;
+    width: 30%;
+    padding-left: 1%;
+
+
+}
+h1{
+  color: #110F0F  ;
+}
+  p{
+    font-size: 20px;
+  }
+@media only screen and (max-width:480px){
+  *{
+    font-size:20px;
+  }
+  .maindiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  img{
+    border-radius: 50%;
+    border: 2px solid black;
+    display: block;
+    margin: auto;
+    width:30%;
+  }
+  .leftchild{
+    margin:3%;
+    border-radius: 45%;
+    width:50%;
+    box-shadow: 3px 3px 3px 3px;
+    background-color: #A93131 ;
+    text-align: center;
+  }
+
+  .child2{
+      margin:3%;
+      border-radius: 45%;
+      background-color: #A93131  ;
+      width: 50%;
+      box-shadow: 3px 3px 3px 3px;
+      padding-left: 1%;
+
+  }
+  h1{
+    color: #110F0F  ;
+  }
+    p{
+      font-size: 20px;
+    }
+    .table-responsive{
+      overflow-x: scroll;
+      width: 90%;
+      margin: 1% auto;
+    }
+}
+@media only screen and (min-width:481px) and (max-width:769px){
+  *{
+    font-size:20px;
+  }
+  .maindiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: :100%;
+  }
+  a{
+    font-size: 20%;
+  }
+  img{
+    border-radius: 50%;
+    border: 2px solid black;
+    display: block;
+    margin: auto;
+    width:30%;
+  }
+  .leftchild{
+    margin:3%;
+    border-radius: 20px;
+    width:50%'
+    box-shadow: 3px 3px 3px 3px;
+    background-color: #A93131
+  }
+
+  .child2{
+      margin:3%;
+      border-radius: 45%;
+      background-color: #A93131  ;
+      width: 50%;
+      box-shadow: 3px 3px 3px 3px;
+      padding-left: 1%;
+
+
+  }
+  h1{
+    color: #110F0F  ;
+}
+  p{
+    font-size: 20px;
+  }
+  .table-responsive{
+    overflow-x: scroll;
+    width: 90%;
+    margin: 1% auto;
+  }
+}
